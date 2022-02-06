@@ -15,7 +15,7 @@ function App() {
         <Navigation />
         <Detail />
       </Route> 
-      <Route path="/">
+      <Route path="/ReactMovieApp">
         <Navigation />
         <Home />
       </Route>
