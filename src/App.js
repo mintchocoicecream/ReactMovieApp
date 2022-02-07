@@ -11,7 +11,7 @@ function App() {
         <Navigation />
         <About />
       </Route>
-      <Route path="/movie/:id">
+      <Route path="/ReactMovieApp/movie/:id">
         <Navigation />
         <Detail />
       </Route> 

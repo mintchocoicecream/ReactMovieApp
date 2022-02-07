@@ -1,12 +1,45 @@
-.info {
-  display: grid;
-  padding: 50px;
-  width: 80%;
-  padding-top: 70px;
-}
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
 
 
-.movie {
+  /* .loader {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+  } */
+
+  .loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    margin: 200px;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+
+
+  .info {
+    display: grid;
+    padding: 50px;
+    width: 80%;
+    padding-top: 70px;
+  }
+
+
+  .movie {
     background-color: white;
     margin-bottom: 70px;
     font-weight: 300;
@@ -25,7 +58,7 @@
   .movie__img {
     position: relative;
     top: -50px;
-    max-width: 150px;
+    max-width: 400px;
     width: 100%;
     margin-right: 30px;
     box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
