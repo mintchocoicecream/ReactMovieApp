@@ -20,9 +20,9 @@ function Navigation() {
                         <span class="visually-hidden">(current)</span>
                         </Link>
                         </li>
-                        <li class="nav-item">
+                        {/* <li class="nav-item">
                             <Link to="/about" class="nav-link">About</Link>
-                        </li>
+                        </li> */}
                         {/* <li class="nav-item">
                             <a class="nav-link" href="/ReactMovieApp">ETC</a>
                         </li> */}
