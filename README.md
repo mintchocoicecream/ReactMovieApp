@@ -1,6 +1,8 @@
 # ReactJS Movie Web Service
 
-with Nomad Coders "ReactJS로 영화 웹 서비스 만들기"
+with Nomad Coders "ReactJS로 영화 웹 서비스 만들기"<br/>
+(기본 ReactJS 학습용 프로젝트)
+
 - ### Skill
   - React, NodeJS, CSS
 
